@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Frameworks.HReusableMethods">
+        <methods>
+          <include name="login"/>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Frameworks.HReusableMethods -->
+      <class name="Frameworks.ReusableMethods">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- Frameworks.ReusableMethods -->
+      <class name="Frameworks.HybridFrameworks">
+        <methods>
+          <include name="TC"/>
+        </methods>
+      </class> <!-- Frameworks.HybridFrameworks -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
